@@ -1,0 +1,63 @@
+SUMMARY
+As a passionate tech enthusiast, I am driven by the opportunity to leverage technology to solve real-life problems. With a deep curiosity for emerging technologies and their practical applications, I am constantly exploring innovative solutions. Combining my strong problem-solving skills with my technical expertise, I thrive in analyzing complex challenges and translating them into effective solutions.
+CONTACT
+Address: Muzaffarpur , Bihar
+Mobile No.: +91 8709222590
+Email: shubhamchandrabansi@gmail.com
+LinkedIn:https://www.linkedin.com/in/shu bhamchandrabansi/
+Git Hub:
+https://github.com/shubhamchandrabansi
+EDUCATION
+Bachelor's of Engineering C.S.E
+March 2024 - Present
+SHUBHAM KUMAR CHANDRABANSI
+EXPERIENCE
+FULL STACK DEVELOPER
+Pear Media LLC , Noida
+   I design and implement both front-end and back-end systems, ensuring seamless functionality. I collaborate with different teams to deliver solutions.
+UNIVERSITY LEAD
+July 2022 - June 2023
+Google Developer Student Club , Chandigarh University
+My roles and responsibilities are to organize events and train them on various google technologies like Android , Flutter , Google Cloud , TensorFlow and etc.
+CODING INSTRUCTOR June 2022 - April 2023
+Campk12 Innovations Pvt. Ltd. , Gurgaon (Remote)
+I was teaching various technologies like Web Development , AR/VR, AI/ML and programming languages like Python and Javascript to the student till 12th Grade.
+   CAMPUS AMBASSADOR
+Indian Institute of Management , Bangalore
+Feb 2021 - Mar 2021
+ TECHNICAL SKILLS
+C/C++ Python HTML CSS PHP ReactJS Javascript
+Cloud Computing Web Development
+INTERPERSONAL SKILLS
+Leadership | Problem Solving Critical Thinking | Decision Making
+Public Speaking | Management
+HOBBIES & INTERESTS
+Writing | Blogging Singing | Playing Cricket
+CERTIFICATIONS
+DATA MINING : IIT Kharagpur (NPTEL)
+SOFTWARE TESTING : IIIT Bangalore (NPTEL) MACHINE LEARNING : Standford University
+PROGRAMMING FOUNDATIONS : Duke University
+ACHIEVEMENTS & VOLUNTEERING
+April 2023
+Nov 2022 Feb 2022
+Feb 2022
+I was the top performer with the letter of recommendation among all the other colleges and universities.
+ PROJECTS
+ANALYSIS OF LARGE CAP COMPANIES
+Feb 2023 - May 2023
+  Chandigarh University CGPA: 8.23
+INTERMEDIATE (CBSE)
+K.V Danapur Cantt, Patna Percentage: 68.83%
+Matriculation (CBSE)
+K.V Danapur Cantt, Patna Percentage: 95%
+(2020-2024)
+(2018-2019)
+(2016-2017)
+It is an ML based project on python, where we are creating a model to predict the stock price of some large Cap companies (market capitalization>10$ billion).
+LEARNING MANAGEMENT SYSTEM June 2022 - July 2022 It was a website that was having number of courses with that was designed using
+html,css and javascript. It was having features like payment gateway, user can watch lectures and buy courses.
+STOCK MANAGEMENT SYSTEM Jan 2021 - Feb 2021
+It was a software that was designed using C/C++, It was having features like Admin Login with encryption, stock intake, searching items, availability of an item and printing receipt .
+    Rank 5 in Google Cloud Security Challenge . ( April 2021)
+Class Representative for consecutive 4 semesters . (2020-2022) Student Codechef coordinator . (Sep 2021 - Nov 2021)
+Organized DevFest Chandigarh in collaboration with Google Developer Groups . (Dec 2022)

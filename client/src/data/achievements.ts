@@ -7,22 +7,22 @@ export interface Achievement {
 export const achievements: Achievement[] = [
   {
     icon: "ri-award-line",
-    value: "3",
-    label: "Years of Experience"
+    value: "8.23",
+    label: "CGPA in B.E. CSE"
   },
   {
     icon: "ri-code-box-line",
-    value: "15",
-    label: "Completed Projects"
+    value: "3+",
+    label: "Major Projects"
   },
   {
     icon: "ri-user-star-line",
-    value: "10",
-    label: "Happy Clients"
+    value: "2+",
+    label: "Years Experience"
   },
   {
     icon: "ri-graduation-cap-line",
-    value: "5",
+    value: "4+",
     label: "Certifications"
   }
 ];
@@ -37,27 +37,27 @@ export interface Certification {
 export const certifications: Certification[] = [
   {
     icon: "ri-award-fill",
-    title: "React Developer Certification",
-    issuer: "Meta (formerly Facebook)",
+    title: "Data Mining",
+    issuer: "IIT Kharagpur (NPTEL)",
     year: "2023"
   },
   {
     icon: "ri-award-fill",
-    title: "Frontend Web Developer",
-    issuer: "Udacity",
+    title: "Software Testing",
+    issuer: "IIIT Bangalore (NPTEL)",
     year: "2022"
   },
   {
     icon: "ri-award-fill",
-    title: "JavaScript Algorithms & Data Structures",
-    issuer: "freeCodeCamp",
-    year: "2021"
+    title: "Machine Learning",
+    issuer: "Stanford University",
+    year: "2022"
   },
   {
     icon: "ri-award-fill",
-    title: "Responsive Web Design",
-    issuer: "freeCodeCamp",
-    year: "2021"
+    title: "Programming Foundations",
+    issuer: "Duke University",
+    year: "2022"
   }
 ];
 
@@ -70,22 +70,22 @@ export interface NotableAchievement {
 export const notableAchievements: NotableAchievement[] = [
   {
     icon: "ri-trophy-fill",
-    title: "Best Portfolio Award",
-    description: "Won first place in a local web design competition for creating an interactive portfolio"
+    title: "Top Performer",
+    description: "Recognized with a letter of recommendation among all colleges and universities"
+  },
+  {
+    icon: "ri-google-fill",
+    title: "Google Cloud Security Challenge",
+    description: "Secured Rank 5 in the Google Cloud Security Challenge (April 2021)"
+  },
+  {
+    icon: "ri-user-star-fill",
+    title: "Class Representative",
+    description: "Served as Class Representative for consecutive 4 semesters (2020-2022)"
   },
   {
     icon: "ri-team-fill",
-    title: "Team Lead",
-    description: "Led a team of 3 developers to build a successful e-commerce platform for a local business"
-  },
-  {
-    icon: "ri-presentation-fill",
-    title: "Hackathon Finalist",
-    description: "Reached the finals in a regional hackathon with an innovative web application for sustainable living"
-  },
-  {
-    icon: "ri-open-source-fill",
-    title: "Open Source Contributor",
-    description: "Active contributor to several open-source React projects with over 50 accepted pull requests"
+    title: "DevFest Chandigarh Organizer",
+    description: "Organized DevFest Chandigarh in collaboration with Google Developer Groups (Dec 2022)"
   }
 ];

@@ -8,64 +8,64 @@ export interface Skill {
 
 export const skills: Skill[] = [
   {
-    name: "React.js",
+    name: "ReactJS",
     icon: "ri-reactjs-line",
     level: "Intermediate",
     experience: 80,
-    years: "2.5 years"
-  },
-  {
-    name: "Node.js",
-    icon: "ri-nodejs-line",
-    level: "Intermediate",
-    experience: 75,
     years: "2 years"
   },
   {
-    name: "TypeScript",
-    icon: "ri-typescript-line",
-    level: "Beginner",
-    experience: 60,
-    years: "1 year"
+    name: "JavaScript",
+    icon: "ri-javascript-line",
+    level: "Intermediate",
+    experience: 85,
+    years: "2.5 years"
   },
   {
-    name: "MongoDB",
-    icon: "ri-database-2-line",
+    name: "C/C++",
+    icon: "ri-code-s-slash-line",
+    level: "Intermediate",
+    experience: 75,
+    years: "3 years"
+  },
+  {
+    name: "Python",
+    icon: "ri-python-line",
     level: "Intermediate",
     experience: 70,
-    years: "1.5 years"
+    years: "2 years"
   },
   {
-    name: "AWS",
-    icon: "ri-cloud-line",
-    level: "Beginner",
-    experience: 50,
-    years: "1 year"
-  },
-  {
-    name: "Docker",
-    icon: "ri-docker-line",
-    level: "Beginner",
-    experience: 40,
-    years: "6 months"
-  },
-  {
-    name: "GraphQL",
-    icon: "ri-graphql-line",
-    level: "Beginner",
-    experience: 45,
-    years: "8 months"
-  },
-  {
-    name: "CSS/SASS",
-    icon: "ri-css3-line",
+    name: "HTML/CSS",
+    icon: "ri-html5-line",
     level: "Intermediate",
     experience: 85,
     years: "3 years"
   },
   {
-    name: "JavaScript",
-    icon: "ri-javascript-line",
+    name: "PHP",
+    icon: "ri-code-line",
+    level: "Beginner",
+    experience: 60,
+    years: "1 year"
+  },
+  {
+    name: "Cloud Computing",
+    icon: "ri-cloud-line",
+    level: "Beginner",
+    experience: 65,
+    years: "1.5 years"
+  },
+  {
+    name: "Machine Learning",
+    icon: "ri-ai-generate",
+    level: "Beginner",
+    experience: 50,
+    years: "1 year"
+  },
+  {
+    name: "Web Development",
+    icon: "ri-code-box-line",
     level: "Intermediate",
     experience: 80,
     years: "3 years"
@@ -75,6 +75,6 @@ export const skills: Skill[] = [
     icon: "ri-github-fill",
     level: "Intermediate",
     experience: 75,
-    years: "2.5 years"
+    years: "2 years"
   }
 ];

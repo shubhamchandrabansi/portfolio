@@ -2,6 +2,8 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { useToast } from "@/hooks/use-toast";
+import { useRef } from "react";
+import emailjs from '@emailjs/browser';
 
 const contactFormSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters" }),
@@ -14,6 +16,7 @@ type ContactFormValues = z.infer<typeof contactFormSchema>;
 
 export default function ContactForm() {
   const { toast } = useToast();
+  const formRef = useRef<HTMLFormElement>(null);
   
   const {
     register,
@@ -32,18 +35,34 @@ export default function ContactForm() {
   
   const onSubmit = async (data: ContactFormValues) => {
     try {
-      // Here you would typically send the data to your API
-      // For now, we'll just simulate a successful submission
-      await new Promise((resolve) => setTimeout(resolve, 1000));
+      if (!formRef.current) return;
+
+      // Replace these with your actual EmailJS service ID, template ID, and public key
+      // You would need to sign up at emailjs.com and set up your template
+      const serviceId = "service_id"; // replace with your service ID
+      const templateId = "template_id"; // replace with your template ID
+      const publicKey = "public_key"; // replace with your public key
       
-      toast({
-        title: "Message sent!",
-        description: "Thanks for reaching out. I'll get back to you soon.",
-        variant: "default",
-      });
+      const result = await emailjs.sendForm(
+        serviceId,
+        templateId,
+        formRef.current,
+        publicKey
+      );
       
-      reset();
+      if (result.text === 'OK') {
+        toast({
+          title: "Message sent!",
+          description: "Thanks for reaching out. I'll get back to you soon.",
+          variant: "default",
+        });
+        
+        reset();
+      } else {
+        throw new Error('Error sending email');
+      }
     } catch (error) {
+      console.error('EmailJS error:', error);
       toast({
         title: "Error",
         description: "Failed to send message. Please try again.",
@@ -53,7 +72,7 @@ export default function ContactForm() {
   };
   
   return (
-    <form className="space-y-4" onSubmit={handleSubmit(onSubmit)}>
+    <form ref={formRef} className="space-y-4" onSubmit={handleSubmit(onSubmit)}>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
           <label htmlFor="name" className="block text-sm text-[#8892B0] mb-1">Name</label>

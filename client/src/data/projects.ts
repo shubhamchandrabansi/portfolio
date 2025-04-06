@@ -9,35 +9,35 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Interactive E-commerce Shop",
-    description: "A responsive online store with product filtering, cart functionality, and a user-friendly checkout process.",
-    detailedDescription: "Developed a full-featured e-commerce site with Stripe integration for payments, responsive design for all devices, and seamless user experience.",
-    techStack: ["React", "JavaScript", "CSS/SASS", "Stripe API"],
-    githubLink: "#",
+    title: "Analysis of Large Cap Companies",
+    description: "An ML-based project for predicting stock prices of large cap companies with market capitalization over $10 billion.",
+    detailedDescription: "Created a machine learning model that analyzes historical data and market trends to predict stock price movements of major corporations, helping investors make informed decisions.",
+    techStack: ["Python", "Machine Learning", "Data Analysis", "Pandas"],
+    githubLink: "https://github.com/Shubham-Kumar-Chandrabansi/Stock-Analysis",
     liveLink: "#"
   },
   {
-    title: "Personal Task Manager",
-    description: "A clean and intuitive task management application with drag-and-drop functionality, reminders, and categorization.",
-    detailedDescription: "Built a productivity tool that helps users organize tasks with features like sorting, filtering, dark/light mode, and browser notifications.",
-    techStack: ["React", "TypeScript", "Tailwind CSS", "Local Storage"],
-    githubLink: "#",
+    title: "Learning Management System",
+    description: "A comprehensive website offering various courses with payment gateway integration and lecture viewing capabilities.",
+    detailedDescription: "Developed a feature-rich learning platform where users can browse courses, make secure payments, and access educational content through an intuitive interface.",
+    techStack: ["HTML", "CSS", "JavaScript", "Payment Gateway"],
+    githubLink: "https://github.com/Shubham-Kumar-Chandrabansi/LMS",
     liveLink: "#"
   },
   {
-    title: "Weather Dashboard",
-    description: "A weather application that provides current conditions and forecasts with a visually appealing and easy-to-use interface.",
-    detailedDescription: "Created a weather app that fetches data from the OpenWeather API, displays 5-day forecasts, and uses dynamic backgrounds based on current weather conditions.",
-    techStack: ["JavaScript", "HTML5", "CSS3", "OpenWeather API"],
-    githubLink: "#",
+    title: "Stock Management System",
+    description: "A software solution designed to handle inventory management with secure admin login and comprehensive stock tracking.",
+    detailedDescription: "Built a C/C++ application featuring encrypted admin authentication, inventory intake tracking, item search functionality, stock availability monitoring, and receipt generation.",
+    techStack: ["C/C++", "Data Structures", "Encryption", "File Handling"],
+    githubLink: "https://github.com/Shubham-Kumar-Chandrabansi/Inventory-Management",
     liveLink: "#"
   },
   {
-    title: "Recipe Finder",
-    description: "An app that helps users discover new recipes based on ingredients they have available in their kitchen.",
-    detailedDescription: "Developed a recipe search application that connects to a food database API, allows saving favorite recipes, and includes meal planning features.",
-    techStack: ["React", "Node.js", "Express", "MongoDB"],
-    githubLink: "#",
+    title: "3D Portfolio Website",
+    description: "A modern, interactive personal portfolio website showcasing skills, projects, and professional experience.",
+    detailedDescription: "Created a responsive portfolio with 3D elements, smooth animations, and a clean user interface using modern web technologies to highlight professional achievements and technical abilities.",
+    techStack: ["React", "Three.js", "TailwindCSS", "JavaScript"],
+    githubLink: "https://github.com/Shubham-Kumar-Chandrabansi/3D-Portfolio",
     liveLink: "#"
   }
 ];

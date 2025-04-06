@@ -76,7 +76,7 @@ export default function AboutSection() {
                 }`}
               >
                 <p className="text-[#CCD6F6] text-lg leading-relaxed">
-                  Hello! I'm <span className="text-[#64FFDA] font-medium">John</span>, a software developer passionate about building exceptional digital experiences. With 3 years of experience in the industry, I'm constantly learning and growing while developing web applications and interactive experiences.
+                  Hello! I'm <span className="text-[#64FFDA] font-medium">Shubham Chandrabansi</span>, a passionate Full Stack Developer and technology enthusiast. As a recent Computer Science Engineering graduate with a CGPA of 8.23, I'm driven by the opportunity to leverage technology to solve real-life problems.
                 </p>
               </div>
               
@@ -86,7 +86,7 @@ export default function AboutSection() {
                 }`}
               >
                 <p className="text-[#8892B0] leading-relaxed">
-                  My journey in software development began during college when I built my first portfolio website. I immediately fell in love with coding and have been captivated by the endless possibilities that technology brings to solve real-world problems.
+                  My journey in technology began during my time at Chandigarh University, where I served as a Google Developer Student Club University Lead and a Coding Instructor at CampK12. I've been captivated by the endless possibilities that technology brings to solve complex challenges in our world.
                 </p>
               </div>
               
@@ -96,7 +96,7 @@ export default function AboutSection() {
                 }`}
               >
                 <p className="text-[#8892B0] leading-relaxed">
-                  Currently, I'm working as a frontend developer while also pursuing freelance projects on the side. I focus on creating <span className="text-[#64FFDA] font-medium">responsive, user-friendly applications</span> with modern technologies like React and tailwind. I'm excited to continue learning and expanding my skillset!
+                  Currently, I'm working as a <span className="text-[#64FFDA] font-medium">Full Stack Developer at Pear Media LLC</span>, where I design and implement both front-end and back-end systems, ensuring seamless functionality across platforms. I combine my strong problem-solving skills with technical expertise to create effective solutions that deliver real value.
                 </p>
               </div>
               
@@ -182,9 +182,9 @@ export default function AboutSection() {
                 <pre className="text-xs text-[#CCD6F6] font-mono">
                   <code className="text-[#8892B0]">
                     <span className="text-[#64FFDA]">const</span> developer = {`{`}<br/>
-                    {'  '}<span className="text-[#9D4EDD]">name</span>: <span className="text-[#C77DFF]">'John Doe'</span>,<br/>
+                    {'  '}<span className="text-[#9D4EDD]">name</span>: <span className="text-[#C77DFF]">'Shubham Chandrabansi'</span>,<br/>
                     {'  '}<span className="text-[#9D4EDD]">role</span>: <span className="text-[#C77DFF]">'Full Stack Developer'</span>,<br/>
-                    {'  '}<span className="text-[#9D4EDD]">loves</span>: <span className="text-[#C77DFF]">'Building cool stuff'</span><br/>
+                    {'  '}<span className="text-[#9D4EDD]">loves</span>: <span className="text-[#C77DFF]">'Solving real-world problems'</span><br/>
                     {`}`};<br/>
                     <br/>
                     <span className="text-[#64FFDA]">export default</span> developer;
