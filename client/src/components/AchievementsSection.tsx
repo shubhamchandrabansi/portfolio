@@ -42,7 +42,6 @@ export default function AchievementsSection() {
           {achievements.map((achievement, index) => (
             <AchievementCard
               key={index}
-              icon={achievement.icon}
               value={achievement.value}
               label={achievement.label}
               isVisible={isVisible}
@@ -62,9 +61,9 @@ export default function AchievementsSection() {
                   key={index}
                   className="flex items-center p-3 bg-[#0A192F]/50 rounded-md hover:bg-[#112240]/50 transition-colors duration-300"
                 >
-                  <div className="w-10 h-10 rounded-full bg-[#64FFDA]/10 flex items-center justify-center mr-4">
+                  {/* <div className="w-10 h-10 rounded-full bg-[#64FFDA]/10 flex items-center justify-center mr-4">
                     <i className={`${cert.icon} text-[#64FFDA]`}></i>
-                  </div>
+                  </div> */}
                   <div>
                     <div className="text-[#CCD6F6] font-medium">{cert.title}</div>
                     <div className="text-[#8892B0] text-sm">{cert.issuer}</div>
@@ -85,9 +84,9 @@ export default function AchievementsSection() {
                   key={index}
                   className="flex items-start p-3 bg-[#0A192F]/50 rounded-md hover:bg-[#112240]/50 transition-colors duration-300"
                 >
-                  <div className="w-10 h-10 rounded-full bg-[#64FFDA]/10 flex items-center justify-center mr-4 mt-1">
+                  {/* <div className="w-10 h-10 rounded-full bg-[#64FFDA]/10 flex items-center justify-center mr-4 mt-1">
                     <i className={`${achievement.icon} text-[#64FFDA]`}></i>
-                  </div>
+                  </div> */}
                   <div>
                     <div className="text-[#CCD6F6] font-medium">{achievement.title}</div>
                     <div className="text-[#8892B0] text-sm">{achievement.description}</div>

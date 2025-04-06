@@ -13,7 +13,7 @@ export default function HeroSection() {
     
     // Simulate type effect for the name
     if (nameRef.current) {
-      const name = "John Doe.";
+      const name = "Shubham Kumar Chandrabansi";
       nameRef.current.textContent = "";
       
       let i = 0;
@@ -54,7 +54,7 @@ export default function HeroSection() {
             ref={nameRef}
             className="text-4xl md:text-6xl lg:text-7xl font-bold text-[#CCD6F6] font-['Space_Grotesk'] mb-4 relative inline-block"
           >
-            John Doe.
+            {/* Shubham Kumar Chandrabansi */}
           </h1>
           
           <div className="overflow-hidden">
@@ -64,7 +64,7 @@ export default function HeroSection() {
                 loaded ? 'translate-y-0' : 'translate-y-full'
               }`}
             >
-              Software Developer & <span className="text-gradient-animated">Founder</span>
+              Software Developer
             </h2>
           </div>
           
@@ -149,10 +149,10 @@ export default function HeroSection() {
       }`}>
         <div className="flex flex-col items-center">
           <a 
-            href="mailto:john@example.com" 
+            href="mailto:shubhamchandrabansi@gmail.com" 
             className="text-[#8892B0] hover:text-[#64FFDA] hover:-translate-y-1 transition-all duration-300 mb-4 vertical-text tracking-widest"
           >
-            john@example.com
+            shubhamchandrabansi@gmail.com
           </a>
           <div className="h-20 w-px bg-[#8892B0]"></div>
         </div>

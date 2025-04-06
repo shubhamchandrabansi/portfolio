@@ -2,13 +2,12 @@ import { useState } from "react";
 
 interface SkillIconProps {
   name: string;
-  icon: string;
   level: string;
   experience: number;
   years: string;
 }
 
-export default function SkillIcon({ name, icon, level, experience, years }: SkillIconProps) {
+export default function SkillIcon({ name,level, experience, years }: SkillIconProps) {
   const [hovered, setHovered] = useState(false);
   
   return (
@@ -19,7 +18,7 @@ export default function SkillIcon({ name, icon, level, experience, years }: Skil
     >
       <div className="absolute -inset-0.5 bg-gradient-to-r from-[#64FFDA] to-[#9D4EDD] opacity-0 group-hover:opacity-30 rounded-lg blur"></div>
       <div className="relative z-10">
-        <i className={`${icon} text-5xl text-[#64FFDA] mb-3`}></i>
+        {/* <i className={`${icon} text-5xl text-[#64FFDA] mb-3`}></i> */}
         <span className="text-sm text-[#CCD6F6] text-center">{name}</span>
       </div>
       

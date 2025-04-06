@@ -75,8 +75,8 @@ export default function Navbar() {
             className="group relative flex items-center text-[#64FFDA] font-['Space_Grotesk'] text-2xl font-bold transition-all duration-300"
           >
             <div className="relative z-10">
-              <span className={`transition-transform duration-300 ${scrolled ? 'text-xl' : 'text-2xl'}`}>JD</span>
-              <span className="text-[#9D4EDD]">.</span>
+            <span className={`transition-transform duration-300 ${scrolled ? 'text-3xl' : 'text-5xl'}`}>⌲</span>
+            <span className="text-[#9D4EDD]">.</span>
             </div>
             <div className="absolute inset-0 bg-[#64FFDA]/10 rounded-full scale-0 group-hover:scale-100 transition-transform duration-300"></div>
           </a>
@@ -94,7 +94,7 @@ export default function Navbar() {
             ))}
             
             <a 
-              href="#resume" 
+              href="https://drive.google.com/file/d/1rmU2ntHx29BfYMYGVKhDSwqC9Yv5gPkO/view?usp=sharing" 
               className="group relative px-4 py-2 overflow-hidden border border-[#64FFDA] text-[#64FFDA] rounded font-mono text-sm"
             >
               <span className="relative z-10 group-hover:text-[#0A192F] transition-colors duration-300">Resume</span>

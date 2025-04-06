@@ -31,13 +31,5 @@ export const projects: Project[] = [
     techStack: ["C/C++", "Data Structures", "Encryption", "File Handling"],
     githubLink: "https://github.com/Shubham-Kumar-Chandrabansi/Inventory-Management",
     liveLink: "#"
-  },
-  {
-    title: "3D Portfolio Website",
-    description: "A modern, interactive personal portfolio website showcasing skills, projects, and professional experience.",
-    detailedDescription: "Created a responsive portfolio with 3D elements, smooth animations, and a clean user interface using modern web technologies to highlight professional achievements and technical abilities.",
-    techStack: ["React", "Three.js", "TailwindCSS", "JavaScript"],
-    githubLink: "https://github.com/Shubham-Kumar-Chandrabansi/3D-Portfolio",
-    liveLink: "#"
   }
 ];

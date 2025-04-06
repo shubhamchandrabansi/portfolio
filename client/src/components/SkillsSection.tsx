@@ -87,9 +87,9 @@ export default function SkillsSection() {
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
                 <div className="flex items-center mb-3">
-                  <div className="bg-[#112240] p-3 rounded-lg mr-4">
+                  {/* <div className="bg-[#112240] p-3 rounded-lg mr-4">
                     <i className={`${skill.icon} text-3xl text-[#64FFDA]`}></i>
-                  </div>
+                  </div> */}
                   <div className="flex-1">
                     <h3 className="text-[#CCD6F6] font-medium">{skill.name}</h3>
                     <div className="flex justify-between items-center mt-1">
@@ -102,7 +102,7 @@ export default function SkillsSection() {
                 <div className="w-full mt-2">
                   <div className="relative h-2 bg-[#1E3A8A] rounded-full overflow-hidden">
                     <div className="absolute inset-0 bg-[#0A192F]/50 rounded-full grid grid-cols-5">
-                      {Array.from({ length: 5 }).map((_, i) => (
+                      {Array.from({ length: 4 }).map((_, i) => (
                         <div key={i} className="h-full border-r border-[#112240]"></div>
                       ))}
                     </div>
@@ -147,7 +147,7 @@ export default function SkillsSection() {
           
           {/* Learning path - shows the developer is still growing */}
           <div className="mt-10 text-center">
-            <p className="text-[#8892B0] italic">Currently learning: <span className="text-[#64FFDA]">Next.js, Three.js</span></p>
+            <p className="text-[#8892B0] italic">Currently learning: <span className="text-[#64FFDA]">AI Architecture</span></p>
           </div>
         </div>
       </div>

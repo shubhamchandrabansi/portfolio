@@ -340,18 +340,6 @@ export default function ThreeScene() {
       window.removeEventListener('resize', handleResize);
       document.removeEventListener('mousemove', handleMouseMove);
       
-      // Dispose of resources
-      scene.traverse((object) => {
-        if (object instanceof THREE.Mesh) {
-          object.geometry.dispose();
-          if (object.material instanceof THREE.Material) {
-            object.material.dispose();
-          } else if (Array.isArray(object.material)) {
-            object.material.forEach(material => material.dispose());
-          }
-        }
-      });
-      
       renderer.dispose();
     };
   }, []);
