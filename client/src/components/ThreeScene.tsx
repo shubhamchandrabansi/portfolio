@@ -23,14 +23,14 @@ export default function ThreeScene() {
     camera.position.z = 5;
     
     // Add lights
-    const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
+    const ambientLight = new THREE.AmbientLight(0x404040, 0.5);
     scene.add(ambientLight);
     
-    const directionalLight = new THREE.DirectionalLight(0x0062ff, 1);
+    const directionalLight = new THREE.DirectionalLight(0x64FFDA, 1);
     directionalLight.position.set(1, 1, 1);
     scene.add(directionalLight);
     
-    const backLight = new THREE.PointLight(0x0050d8, 0.8);
+    const backLight = new THREE.PointLight(0x9D4EDD, 0.8);
     backLight.position.set(-5, 3, -5);
     scene.add(backLight);
     
@@ -61,14 +61,14 @@ export default function ThreeScene() {
     // Create shader material for better-looking particles
     const particlesMaterial = new THREE.ShaderMaterial({
       uniforms: {
-        color: { value: new THREE.Color(0x0062ff) },
+        color: { value: new THREE.Color(0x64FFDA) },
         pointTexture: { value: new THREE.TextureLoader().load('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFFmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDAgNzkuMTYwNDUxLCAyMDE3LzA1LzA2LTAxOjA4OjIxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOCAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMTktMTItMzBUMDE6Mzc6MjArMDE6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDE5LTEyLTMwVDAxOjM4OjI4KzAxOjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDE5LTEyLTMwVDAxOjM4OjI4KzAxOjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9InNSR0IgSUVDNjE5NjYtMi4xIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOmE0ZjBkN2U1LWMwMjQtNDQ0MC04MGJlLWJlMzQ5ZTVkNjI5NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDphNGYwZDdlNS1jMDI0LTQ0NDAtODBiZS1iZTM0OWU1ZDYyOTciIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDphNGYwZDdlNS1jMDI0LTQ0NDAtODBiZS1iZTM0OWU1ZDYyOTciPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmE0ZjBkN2U1LWMwMjQtNDQ0MC04MGJlLWJlMzQ5ZTVkNjI5NyIgc3RFdnQ6d2hlbj0iMjAxOS0xMi0zMFQwMTozNzoyMCswMTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKE1hY2ludG9zaCkiLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Mcu/jQAAAGNJREFUWIXt1jEKwCAMBFCR4v0P6Rwc3BS3gIVCx+aJdPgDhK8nREQtDQwA2LsDUYs1VL7bAfLzqVkDyGZCK+5/5O7XJRzTtt8H0HvMeiDVWLlp8UdQr1ztAQxs85/APvGNDh1DOhOxyBFCAAAAAElFTkSuQmCC') }
       },
       vertexShader: `
         attribute float size;
         varying vec3 vColor;
         void main() {
-          vColor = vec3(0.0, 0.385, 1.0); // Base blue color
+          vColor = vec3(0.4, 1.0, 0.85); // Base teal color
           // Add some variation to color based on position
           vColor.r += position.x * 0.01;
           vColor.g += position.y * 0.01;
@@ -106,32 +106,32 @@ export default function ThreeScene() {
     
     const meshes: THREE.Mesh[] = [];
     const materials = [
-      // Glowing blue wireframe
+      // Glowing purple/magenta with wireframe
       new THREE.MeshPhongMaterial({
-        color: 0x0050d8,
-        emissive: 0x0050d8,
-        emissiveIntensity: 0.3,
+        color: 0x9D4EDD,
+        emissive: 0x9D4EDD,
+        emissiveIntensity: 0.4,
         wireframe: true,
         transparent: true,
-        opacity: 0.7
+        opacity: 0.8
       }),
       // Shimmering blue glass effect
       new THREE.MeshPhysicalMaterial({
-        color: 0x0062ff,
+        color: 0x0077FF,
         metalness: 0.2,
         roughness: 0.1,
         transmission: 0.9,
         transparent: true,
-        opacity: 0.7
+        opacity: 0.8
       }),
-      // Light blue hologram
+      // Futuristic teal hologram
       new THREE.MeshStandardMaterial({
-        color: 0x0077ff,
-        emissive: 0x0077ff,
+        color: 0x64FFDA,
+        emissive: 0x64FFDA,
         emissiveIntensity: 0.2,
         wireframe: true,
         transparent: true,
-        opacity: 0.5
+        opacity: 0.6
       })
     ];
     
@@ -188,7 +188,7 @@ export default function ThreeScene() {
     const centralGeometry = new THREE.IcosahedronGeometry(2, 1);
     const centralWireframe = new THREE.EdgesGeometry(centralGeometry);
     const centralMaterial = new THREE.LineBasicMaterial({
-      color: 0x0062ff,
+      color: 0x64FFDA,
       transparent: true,
       opacity: 0.2,
       linewidth: 1
@@ -207,8 +207,8 @@ export default function ThreeScene() {
     const gridMaterial = new THREE.ShaderMaterial({
       uniforms: {
         time: { value: 0 },
-        color1: { value: new THREE.Color(0xf5f8fc) },
-        color2: { value: new THREE.Color(0x0062ff) }
+        color1: { value: new THREE.Color(0x112240) },
+        color2: { value: new THREE.Color(0x64FFDA) }
       },
       transparent: true,
       vertexShader: `
