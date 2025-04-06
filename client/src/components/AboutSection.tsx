@@ -76,7 +76,7 @@ export default function AboutSection() {
                 }`}
               >
                 <p className="text-[#CCD6F6] text-lg leading-relaxed">
-                  Hello! I'm <span className="text-[#64FFDA] font-medium">John</span>, a software developer passionate about building exceptional digital experiences. With over 8 years of experience in the industry, I've worked on a wide range of projects, from web applications to enterprise systems.
+                  Hello! I'm <span className="text-[#64FFDA] font-medium">John</span>, a software developer passionate about building exceptional digital experiences. With 3 years of experience in the industry, I'm constantly learning and growing while developing web applications and interactive experiences.
                 </p>
               </div>
               
@@ -86,7 +86,7 @@ export default function AboutSection() {
                 }`}
               >
                 <p className="text-[#8892B0] leading-relaxed">
-                  My journey in software development began when I built my first website at 14. Since then, I've been captivated by the endless possibilities that code brings to solve real-world problems.
+                  My journey in software development began during college when I built my first portfolio website. I immediately fell in love with coding and have been captivated by the endless possibilities that technology brings to solve real-world problems.
                 </p>
               </div>
               
@@ -96,7 +96,7 @@ export default function AboutSection() {
                 }`}
               >
                 <p className="text-[#8892B0] leading-relaxed">
-                  Today, I run my own software development company where we focus on creating <span className="text-[#64FFDA] font-medium">scalable, high-performance applications</span> that deliver tangible business value through innovative solutions and exceptional user experiences.
+                  Currently, I'm working as a frontend developer while also pursuing freelance projects on the side. I focus on creating <span className="text-[#64FFDA] font-medium">responsive, user-friendly applications</span> with modern technologies like React and tailwind. I'm excited to continue learning and expanding my skillset!
                 </p>
               </div>
               

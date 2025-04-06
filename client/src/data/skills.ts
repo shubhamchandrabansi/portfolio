@@ -10,71 +10,71 @@ export const skills: Skill[] = [
   {
     name: "React.js",
     icon: "ri-reactjs-line",
-    level: "Expert Level",
-    experience: 95,
-    years: "8+ years"
+    level: "Intermediate",
+    experience: 80,
+    years: "2.5 years"
   },
   {
     name: "Node.js",
     icon: "ri-nodejs-line",
-    level: "Advanced",
-    experience: 85,
-    years: "6+ years"
+    level: "Intermediate",
+    experience: 75,
+    years: "2 years"
   },
   {
     name: "TypeScript",
     icon: "ri-typescript-line",
-    level: "Expert",
-    experience: 90,
-    years: "5+ years"
+    level: "Beginner",
+    experience: 60,
+    years: "1 year"
   },
   {
     name: "MongoDB",
     icon: "ri-database-2-line",
-    level: "Advanced",
-    experience: 80,
-    years: "5+ years"
+    level: "Intermediate",
+    experience: 70,
+    years: "1.5 years"
   },
   {
     name: "AWS",
     icon: "ri-cloud-line",
-    level: "Advanced",
-    experience: 85,
-    years: "4+ years"
+    level: "Beginner",
+    experience: 50,
+    years: "1 year"
   },
   {
     name: "Docker",
     icon: "ri-docker-line",
-    level: "Intermediate",
-    experience: 75,
-    years: "3+ years"
+    level: "Beginner",
+    experience: 40,
+    years: "6 months"
   },
   {
     name: "GraphQL",
     icon: "ri-graphql-line",
-    level: "Advanced",
-    experience: 80,
-    years: "4+ years"
+    level: "Beginner",
+    experience: 45,
+    years: "8 months"
   },
   {
-    name: "Flutter",
-    icon: "ri-flutter-line",
+    name: "CSS/SASS",
+    icon: "ri-css3-line",
     level: "Intermediate",
-    experience: 70,
-    years: "2+ years"
+    experience: 85,
+    years: "3 years"
   },
   {
-    name: "Python",
-    icon: "ri-python-line",
-    level: "Advanced",
-    experience: 85,
-    years: "6+ years"
+    name: "JavaScript",
+    icon: "ri-javascript-line",
+    level: "Intermediate",
+    experience: 80,
+    years: "3 years"
   },
   {
     name: "Git/GitHub",
     icon: "ri-github-fill",
-    level: "Expert",
-    experience: 95,
-    years: "8+ years"
+    level: "Intermediate",
+    experience: 75,
+    years: "2.5 years"
   }
 ];

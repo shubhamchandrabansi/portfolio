@@ -9,26 +9,34 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "SaaS Analytics Platform",
-    description: "A comprehensive analytics dashboard for SaaS businesses to track key metrics, user engagement, and revenue streams in real-time.",
-    detailedDescription: "Built a scalable analytics platform that processes over 1M events daily. Implemented real-time data visualization and custom reporting tools.",
-    techStack: ["React", "Node.js", "D3.js", "AWS"],
+    title: "Interactive E-commerce Shop",
+    description: "A responsive online store with product filtering, cart functionality, and a user-friendly checkout process.",
+    detailedDescription: "Developed a full-featured e-commerce site with Stripe integration for payments, responsive design for all devices, and seamless user experience.",
+    techStack: ["React", "JavaScript", "CSS/SASS", "Stripe API"],
     githubLink: "#",
     liveLink: "#"
   },
   {
-    title: "AI-Powered Task Manager",
-    description: "A smart task management system that uses AI to prioritize tasks, suggest optimal work times, and provide productivity insights.",
-    detailedDescription: "Designed and implemented an AI algorithm that learns from user behavior to optimize task scheduling. Increased user productivity by 27% in tests.",
-    techStack: ["React", "Python", "TensorFlow", "MongoDB"],
+    title: "Personal Task Manager",
+    description: "A clean and intuitive task management application with drag-and-drop functionality, reminders, and categorization.",
+    detailedDescription: "Built a productivity tool that helps users organize tasks with features like sorting, filtering, dark/light mode, and browser notifications.",
+    techStack: ["React", "TypeScript", "Tailwind CSS", "Local Storage"],
     githubLink: "#",
     liveLink: "#"
   },
   {
-    title: "E-Commerce Microservices",
-    description: "A scalable e-commerce platform built with microservices architecture, featuring real-time inventory, payment processing, and order management.",
-    detailedDescription: "Developed a highly available e-commerce system capable of handling 10K+ concurrent users. Implemented CI/CD pipelines and automated scaling.",
-    techStack: ["Node.js", "Docker", "Kubernetes", "AWS"],
+    title: "Weather Dashboard",
+    description: "A weather application that provides current conditions and forecasts with a visually appealing and easy-to-use interface.",
+    detailedDescription: "Created a weather app that fetches data from the OpenWeather API, displays 5-day forecasts, and uses dynamic backgrounds based on current weather conditions.",
+    techStack: ["JavaScript", "HTML5", "CSS3", "OpenWeather API"],
+    githubLink: "#",
+    liveLink: "#"
+  },
+  {
+    title: "Recipe Finder",
+    description: "An app that helps users discover new recipes based on ingredients they have available in their kitchen.",
+    detailedDescription: "Developed a recipe search application that connects to a food database API, allows saving favorite recipes, and includes meal planning features.",
+    techStack: ["React", "Node.js", "Express", "MongoDB"],
     githubLink: "#",
     liveLink: "#"
   }

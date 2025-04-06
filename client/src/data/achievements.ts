@@ -7,22 +7,22 @@ export interface Achievement {
 export const achievements: Achievement[] = [
   {
     icon: "ri-award-line",
-    value: "8",
+    value: "3",
     label: "Years of Experience"
   },
   {
     icon: "ri-code-box-line",
-    value: "50",
+    value: "15",
     label: "Completed Projects"
   },
   {
     icon: "ri-user-star-line",
-    value: "30",
+    value: "10",
     label: "Happy Clients"
   },
   {
     icon: "ri-graduation-cap-line",
-    value: "12",
+    value: "5",
     label: "Certifications"
   }
 ];
@@ -37,21 +37,27 @@ export interface Certification {
 export const certifications: Certification[] = [
   {
     icon: "ri-award-fill",
-    title: "AWS Solutions Architect",
-    issuer: "Amazon Web Services",
+    title: "React Developer Certification",
+    issuer: "Meta (formerly Facebook)",
+    year: "2023"
+  },
+  {
+    icon: "ri-award-fill",
+    title: "Frontend Web Developer",
+    issuer: "Udacity",
     year: "2022"
   },
   {
     icon: "ri-award-fill",
-    title: "Certified Kubernetes Administrator",
-    issuer: "Cloud Native Computing Foundation",
+    title: "JavaScript Algorithms & Data Structures",
+    issuer: "freeCodeCamp",
     year: "2021"
   },
   {
     icon: "ri-award-fill",
-    title: "Google Professional Cloud Architect",
-    issuer: "Google Cloud",
-    year: "2020"
+    title: "Responsive Web Design",
+    issuer: "freeCodeCamp",
+    year: "2021"
   }
 ];
 
@@ -64,17 +70,22 @@ export interface NotableAchievement {
 export const notableAchievements: NotableAchievement[] = [
   {
     icon: "ri-trophy-fill",
-    title: "Tech Innovation Award",
-    description: "Developed a patented algorithm for real-time data processing that improved performance by 200%"
+    title: "Best Portfolio Award",
+    description: "Won first place in a local web design competition for creating an interactive portfolio"
   },
   {
     icon: "ri-team-fill",
-    title: "Tech Lead",
-    description: "Led a team of 15 developers to successfully deliver an enterprise platform used by Fortune 500 companies"
+    title: "Team Lead",
+    description: "Led a team of 3 developers to build a successful e-commerce platform for a local business"
   },
   {
     icon: "ri-presentation-fill",
-    title: "Conference Speaker",
-    description: "Delivered keynote presentations at major tech conferences including React Summit and AWS re:Invent"
+    title: "Hackathon Finalist",
+    description: "Reached the finals in a regional hackathon with an innovative web application for sustainable living"
+  },
+  {
+    icon: "ri-open-source-fill",
+    title: "Open Source Contributor",
+    description: "Active contributor to several open-source React projects with over 50 accepted pull requests"
   }
 ];
