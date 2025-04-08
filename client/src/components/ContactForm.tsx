@@ -39,9 +39,9 @@ export default function ContactForm() {
 
       // Replace these with your actual EmailJS service ID, template ID, and public key
       // You would need to sign up at emailjs.com and set up your template
-      const serviceId = "service_id"; // replace with your service ID
-      const templateId = "template_id"; // replace with your template ID
-      const publicKey = "public_key"; // replace with your public key
+      const serviceId = "service_bs8bx5k"; // replace with your service ID
+      const templateId = "template_x3cuepk"; // replace with your template ID
+      const publicKey = "ZTxC5c7ljYcwPmSoz"; // replace with your public key
       
       const result = await emailjs.sendForm(
         serviceId,
